@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-<<<<<<< HEAD
-      <module fileurl="file://$PROJECT_DIR$/.idea/JobApp.iml" filepath="$PROJECT_DIR$/.idea/JobApp.iml" />
-=======
-      <module fileurl="file://$PROJECT_DIR$/.idea/untitled1.iml" filepath="$PROJECT_DIR$/.idea/untitled1.iml" />
->>>>>>> c69a687 (Initial commit)
+      <module fileurl="file://$PROJECT_DIR$/.idea/JobApp-main.iml" filepath="$PROJECT_DIR$/.idea/JobApp-main.iml" />
     </modules>
   </component>
 </project>
