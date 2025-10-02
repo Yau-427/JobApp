@@ -67,6 +67,11 @@ const SelectField: React.FC<SelectFieldProps> = ({
             borderRadius: '12px',
             border: '1px solid var(--border-color)',
             boxShadow: '0 4px 15px rgba(var(--black-rgb), 0.1)',
+            backgroundColor: 'var(--white)',
+        }),
+        menuList: (provided: any) => ({
+            ...provided,
+            backgroundColor: 'var(--white)',
         }),
         option: (provided: any, state: any) => ({
             ...provided,
