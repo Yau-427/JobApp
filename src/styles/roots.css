@@ -1,0 +1,70 @@
+:root {
+  /* Светлая тема - фиолетовые цвета */
+  --primary-color: #4f46e5; /* индиго */
+  --primary-rgb: 79, 70, 229;
+
+  --secondary-color: #6366f1; /* фиолетовый */
+  --secondary-rgb: 99, 102, 241;
+
+  --accent-color: #8b5cf6; /* фиолетовый акцент */
+  --accent-rgb: 139, 92, 246;
+
+  --error-color: #e11d48; /* красный */
+  --error-rgb: 225, 29, 72;
+
+  --text-dark: #333; /* темный текст */
+  --text-dark-rgb: 51, 51, 51;
+
+  --text-darker: #111; /* очень темный текст */
+  --text-darker-rgb: 17, 17, 17;
+
+  --border-color: #ccc; /* светло-серый бордер */
+  --border-rgb: 204, 204, 204;
+
+  --white: #ffffff;
+  --white-rgb: 255, 255, 255;
+
+  --black: #000000;
+  --black-rgb: 0, 0, 0;
+
+  /* Градиенты */
+  --gradient-primary: linear-gradient(135deg, var(--secondary-color), var(--accent-color));
+  --gradient-primary-hover: linear-gradient(135deg, var(--primary-color), #7c3aed);
+  --gradient-error: linear-gradient(135deg, #f43f5e, #ec4899);
+  --gradient-error-hover: linear-gradient(135deg, #be185d, #db2777);
+  --gradient-body: linear-gradient(135deg, rgba(var(--primary-rgb), 0.1), rgba(var(--accent-rgb), 0.05));
+}
+
+/* Темная тема - оранжевые цвета */
+[data-theme="dark"] {
+  --primary-color: #ea580c; /* оранжевый */
+  --primary-rgb: 234, 88, 12;
+
+  --secondary-color: #f97316; /* оранжевый */
+  --secondary-rgb: 249, 115, 22;
+
+  --accent-color: #fb923c; /* оранжевый акцент */
+  --accent-rgb: 251, 146, 60;
+
+  --text-dark: #f3f4f6; /* светлый текст */
+  --text-dark-rgb: 243, 244, 246;
+
+  --text-darker: #e5e7eb; /* очень светлый текст */
+  --text-darker-rgb: 229, 231, 235;
+
+  --border-color: #374151; /* темный бордер */
+  --border-rgb: 55, 65, 81;
+
+  --white: #1f2937; /* темный фон */
+  --white-rgb: 31, 41, 55;
+
+  --black: #f9fafb; /* светлый текст */
+  --black-rgb: 249, 250, 251;
+
+  /* Градиенты */
+  --gradient-primary: linear-gradient(135deg, var(--secondary-color), var(--accent-color));
+  --gradient-primary-hover: linear-gradient(135deg, var(--primary-color), #c2410c);
+  --gradient-error: linear-gradient(135deg, #f43f5e, #ec4899);
+  --gradient-error-hover: linear-gradient(135deg, #be185d, #db2777);
+  --gradient-body: linear-gradient(135deg, var(--white), rgba(var(--primary-rgb), 0.1));
+}
