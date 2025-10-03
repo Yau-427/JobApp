@@ -309,3 +309,27 @@ select:focus {
 [data-theme="light"] .form-container {
     background: rgba(var(--white-rgb), 0.2);
 }
+
+/* Кастомный скроллбар для react-select */
+.css-b62m3t-container::-webkit-scrollbar,
+.css-1nmdiq5-menu::-webkit-scrollbar {
+    width: 8px;
+}
+
+.css-b62m3t-container::-webkit-scrollbar-track,
+.css-1nmdiq5-menu::-webkit-scrollbar-track {
+    background: rgba(var(--border-rgb), 0.3);
+    border-radius: 4px;
+}
+
+.css-b62m3t-container::-webkit-scrollbar-thumb,
+.css-1nmdiq5-menu::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    border-radius: 4px;
+    transition: background 0.3s ease;
+}
+
+.css-b62m3t-container::-webkit-scrollbar-thumb:hover,
+.css-1nmdiq5-menu::-webkit-scrollbar-thumb:hover {
+    background: var(--secondary-color);
+}
